@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'admin.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'terror_watch_admin',
         'USER': 'admin',
         'PASSWORD': 'p4ssw0rd',
         'HOST': 'db',
-        'PORT': '3306'
+        'PORT': '5432'
     }
 }
 
