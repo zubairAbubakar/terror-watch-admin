@@ -22,6 +22,7 @@ services:
 
     db:
         image: postgres:13-alpine
+        user: postgres
         restart: always
         environment: 
             POSTGRES_DB: terror_watch_admin

@@ -9,7 +9,7 @@ django.setup()
 from posts.models import Post
 
 
-params = pika.URLParameters('amqps://knveduol:J6Drcdy-Np6n-1o44HhTOiHqhkMnaC8L@baboon.rmq.cloudamqp.com/knveduol')
+params = pika.URLParameters('amqps://tmpalsrr:YTpKqsIbrUBxbgrLeLkjzlTSWo_HMN2W@fish.rmq.cloudamqp.com/tmpalsrr')
 
 connection = pika.BlockingConnection(params)
 
